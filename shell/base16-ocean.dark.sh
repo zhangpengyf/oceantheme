@@ -46,7 +46,7 @@ elif [ "${TERM%%-*}" = "screen" ]; then
   printf_template_custom="\033P\033]%s%s\007\033\\"
 elif [[ $- != *i* ]]; then
   # non-interactive
-  alias printf=/bin/false
+  alias printf=/usr/bin/false
 else
   printf_template="\033]4;%d;rgb:%s\033\\"
   printf_template_var="\033]%d;rgb:%s\033\\"
