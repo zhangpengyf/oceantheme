@@ -9,3 +9,6 @@ Themes on this site support fully all family of JetBrains' IDEs: IntelliJ IDEA, 
 Which platforms are supported?
 
 Windows, Mac OS and Linux are fully supported.
+
+####现在可以直接导入settings.jar，不需要上面的步骤了
+如果想使用默认的，按上面的操作
